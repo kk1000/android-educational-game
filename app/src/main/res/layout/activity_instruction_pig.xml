@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:background="#212121"
+        android:tint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_back" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="407dp"
+        android:layout_height="108dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginStart="264dp"
+        android:background="@drawable/rectangle"
+        android:onClick="turnoffVolume"
+        android:tint="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/myRectangleView2"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:background="#212121"
+        android:onClick="goBack"
+        android:tint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_back" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle"
+        android:onClick="repeatInstruction"
+        android:tint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/refresh" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="398dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/rectangle_light_grey"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="78dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="443dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pig_big" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="78dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="443dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pig_big" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="78dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="443dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pig_big" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="78dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="443dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pig_big" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="628dp"
+        android:layout_height="377dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitStart"
+        android:tint="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud"
+        tools:layout_editor_absoluteX="-122dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="127dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="377dp"
+        android:backgroundTint="#212121"
+        android:onClick="showMap"
+        android:text="GRAJ"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="188dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="151dp"
+        android:text="Mała świnka zgubiła się w gospodarstwie!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Mała świnka zgubiła się w gospodarstwie!" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="277dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="245dp"
+        android:text="Ułóż drogę z rozsypanki i doprowadź świnkę do mamy. Jeśli Ci się uda, otrzymasz"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="318dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
